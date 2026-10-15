@@ -1,0 +1,8 @@
+python-igraph
+pandas
+matplotlib
+scipy
+openpyxl
+infomap
+torch
+numpy
