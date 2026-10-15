@@ -45,12 +45,6 @@ The script previews each figure in a Matplotlib window; close a window to save i
 python figures_main.py --no-show
 ```
 
-Useful targeted modes:
-
-- `python figures_main.py --figure4-only` generates Figure 4.
-- `python figures_main.py --figure-s1-only` generates Figure S1.
-- `python figures_main.py --table-s1-only` generates Table S1.
-
 Outputs are written beside the script. The loader also creates `Potter_FW.csv` and `Arctic_Food_Web_2016.csv` as intermediate files. The current shared methods module imports additional packages used elsewhere in that module, so all entries in `requirements.txt` are needed for this unmodified version.
 
 The repository-level `LICENSE` covers code. Check the original terms and attribution requirements for the included food-web data before redistributing or reusing those data separately.
